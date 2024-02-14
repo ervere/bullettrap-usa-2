@@ -1,0 +1,45 @@
+.carousel {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-image {
+    flex: 0 0 100%;
+  }
+
+  .carousel-preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .carousel-preview img {
+    width: 50px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
